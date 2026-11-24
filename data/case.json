@@ -14,6 +14,46 @@
       "id": "CP-12",
       "text": "青宁标签：仅适用于抽穗前；开花期不得施用。",
       "kind": "label"
+    },
+    {
+      "id": "CP-20",
+      "kind": "field-register",
+      "text": "CR1属于农户F1田块T1，本周由孕穗转到花期。相邻T2属F2，种植另一品种。"
+    },
+    {
+      "id": "CP-21",
+      "kind": "knowledge-note",
+      "text": "本演练病害D1与叶背白点相容，也可有非病害残留；D2需伴随明显扩散才能提升怀疑。观察不足只保留候选，不作确诊。"
+    },
+    {
+      "id": "CP-22",
+      "kind": "label",
+      "text": "药剂青宁LABEL1旧版仅适用于抽穗前，花期禁用；LABEL2补充只对CR2作物放宽，不改变CR1限制。"
+    },
+    {
+      "id": "CP-23",
+      "kind": "lab",
+      "text": "T1样本未检出D1标记，不能证明D2，未采T2。"
+    },
+    {
+      "id": "CP-24",
+      "kind": "observation",
+      "text": "技术员现场见T1东侧三株白点可擦除，西侧未检查；农户转发的打药好转来自T2。"
+    },
+    {
+      "id": "CP-25",
+      "kind": "notice",
+      "text": "N1昨日建议F1在T1按LABEL1施用青宁，仍未执行；N2记录F2已在T2完成此前作业。"
+    },
+    {
+      "id": "CP-26",
+      "kind": "farmer-reply",
+      "text": "F1说今天已进入花期，尚未照N1操作，想知道是否继续。"
+    },
+    {
+      "id": "CP-27",
+      "kind": "correction",
+      "text": "CR1此前生育期记录由孕穗更正为已开花，变化仅指T1，不涉及T2。"
     }
   ],
   "crop": {
@@ -21,5 +61,43 @@
     "name": "合成稻种甲",
     "stage": "孕穗期"
   },
-  "case_id": "crop-10"
+  "case_id": "crop-10",
+  "context": {
+    "fields": [
+      {
+        "id": "T1",
+        "farmer": "F1",
+        "crop": "CR1"
+      },
+      {
+        "id": "T2",
+        "farmer": "F2",
+        "crop": "CR2"
+      }
+    ],
+    "notices": [
+      {
+        "id": "N1",
+        "state": "not_executed",
+        "source": "CP-25",
+        "field": "T1"
+      },
+      {
+        "id": "N2",
+        "state": "executed",
+        "source": "CP-25",
+        "field": "T2"
+      }
+    ],
+    "labels": [
+      {
+        "id": "LABEL1",
+        "source": "CP-22"
+      },
+      {
+        "id": "LABEL2",
+        "source": "CP-22"
+      }
+    ]
+  }
 }
