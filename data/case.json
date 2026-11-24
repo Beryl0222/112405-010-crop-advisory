@@ -1,0 +1,25 @@
+{
+  "records": [
+    {
+      "id": "CP-10",
+      "text": "本田东侧三株叶背有白点，近两日未见扩散。",
+      "kind": "farmer-observation"
+    },
+    {
+      "id": "CP-11",
+      "text": "邻田说喷过青宁后好转，作物品种和施用日不详。",
+      "kind": "forwarded-story"
+    },
+    {
+      "id": "CP-12",
+      "text": "青宁标签：仅适用于抽穗前；开花期不得施用。",
+      "kind": "label"
+    }
+  ],
+  "crop": {
+    "id": "CR-1",
+    "name": "合成稻种甲",
+    "stage": "孕穗期"
+  },
+  "case_id": "crop-10"
+}
