@@ -1,0 +1,55 @@
+{
+  "case_id": "crop-10",
+  "crops": [
+    {
+      "id": "CR1",
+      "name": "合成稻种甲",
+      "aliases": ["CR-1"],
+      "stages": ["分蘖期", "孕穗期", "抽穗期", "开花期", "灌浆期", "成熟期"]
+    },
+    {
+      "id": "CR2",
+      "name": "合成稻种乙",
+      "aliases": [],
+      "stages": ["分蘖期", "孕穗期", "抽穗期", "开花期", "灌浆期", "成熟期"]
+    }
+  ],
+  "diseases": [
+    {
+      "id": "D1",
+      "name": "合成白点叶斑",
+      "symptom_codes": ["white_leaf_back_spots"]
+    },
+    {
+      "id": "D2",
+      "name": "合成扩散型枯斑",
+      "symptom_codes": ["spreading_lesions"]
+    }
+  ],
+  "products": [
+    {
+      "id": "PRD-QN",
+      "name": "青宁",
+      "labels": [
+        {"id": "LABEL1", "crops": ["CR1"]},
+        {"id": "LABEL2", "crops": ["CR2"]}
+      ]
+    }
+  ],
+  "symptoms": [
+    {"code": "white_leaf_back_spots", "keywords": ["叶背", "白点"]},
+    {"code": "spreading_lesions", "keywords": ["扩散"]},
+    {"code": "wipeable_residue", "keywords": ["擦除"]}
+  ],
+  "hearsay_markers": ["邻田", "隔壁", "转发", "听说", "旁人", "他人", "别家"],
+  "stage_aliases": {
+    "分蘖": "分蘖期",
+    "孕穗": "孕穗期",
+    "抽穗": "抽穗期",
+    "花期": "开花期",
+    "开花": "开花期",
+    "已开花": "开花期",
+    "灌浆": "灌浆期",
+    "成熟": "成熟期"
+  }
+}

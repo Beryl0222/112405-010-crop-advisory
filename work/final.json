@@ -1,0 +1,579 @@
+{
+  "blocked_application": {
+    "approved": false,
+    "errors": [
+      "该田块没有未被排除且未判不符的病害候选，施药缺乏对应病害依据",
+      "当前生育期 开花期 已超出标签施用窗口：青宁标签：仅适用于抽穗前",
+      "当前生育期 开花期 命中标签禁用限制：开花期不得施用",
+      "当前生育期 开花期 已超出标签施用窗口：药剂青宁LABEL1旧版仅适用于抽穗前",
+      "当前生育期 开花期 命中标签禁用限制：花期禁用"
+    ],
+    "rec_id": "REC-540e0f78",
+    "restrictions": [
+      "青宁标签：仅适用于抽穗前",
+      "开花期不得施用",
+      "药剂青宁LABEL1旧版仅适用于抽穗前",
+      "花期禁用",
+      "LABEL2补充只对CR2作物放宽（仅适用其他作物，对 CR1 不生效）"
+    ]
+  },
+  "candidates": {
+    "D1": "CAND-219a89ff",
+    "D1_final": "ruled_out",
+    "D1_judged": "matched",
+    "D2": "CAND-06f18e82",
+    "D2_final": "mismatched"
+  },
+  "ingestion": {
+    "candidates": [],
+    "evidence": [
+      "EV-354ae345",
+      "EV-b396ee7c",
+      "EV-0dcf1575",
+      "EV-18040872",
+      "EV-5c01be37",
+      "EV-29eaaff8",
+      "EV-7cff91d8",
+      "EV-e0117240",
+      "EV-2ad6fa74",
+      "EV-d9f21889",
+      "EV-be4db1a6",
+      "EV-c7eca0fc",
+      "EV-e9766d12",
+      "EV-8019f317",
+      "EV-cc163208"
+    ],
+    "knowledge": [],
+    "lab": [
+      "T1:D1:negative"
+    ],
+    "labels": [
+      "EV-35d75843",
+      "EV-d8f8c028",
+      "EV-2eb872bd"
+    ],
+    "notices": [
+      "EV-e9766d12",
+      "N1",
+      "N2"
+    ],
+    "sources": [
+      "CP-10",
+      "CP-11",
+      "CP-12",
+      "CP-20",
+      "CP-21",
+      "CP-22",
+      "CP-23",
+      "CP-24",
+      "CP-25",
+      "CP-26",
+      "CP-27"
+    ],
+    "stage": [
+      "T1:孕穗期",
+      "T1:开花期"
+    ]
+  },
+  "monitor_explanation": {
+    "candidates": [
+      {
+        "candidate_id": "CAND-219a89ff",
+        "disease_id": "D1",
+        "disease_name": "合成白点叶斑",
+        "evidence": [
+          {
+            "evidence_id": "EV-354ae345",
+            "is_hearsay": false,
+            "kind": "observation",
+            "original_text": "本田东侧三株叶背有白点，近两日未见扩散。",
+            "source_id": "CP-10",
+            "symptom_codes": [
+              "white_leaf_back_spots"
+            ],
+            "text": "本田东侧三株叶背有白点",
+            "usable": true
+          },
+          {
+            "evidence_id": "EV-b396ee7c",
+            "is_hearsay": false,
+            "kind": "observation",
+            "original_text": "本田东侧三株叶背有白点，近两日未见扩散。",
+            "source_id": "CP-10",
+            "symptom_codes": [],
+            "text": "近两日未见扩散",
+            "usable": true
+          },
+          {
+            "evidence_id": "EV-be4db1a6",
+            "is_hearsay": false,
+            "kind": "observation",
+            "original_text": "技术员现场见T1东侧三株白点可擦除，西侧未检查；农户转发的打药好转来自T2。",
+            "source_id": "CP-24",
+            "symptom_codes": [],
+            "text": "西侧未检查",
+            "usable": true
+          },
+          {
+            "evidence_id": "EV-d9f21889",
+            "is_hearsay": false,
+            "kind": "observation",
+            "original_text": "技术员现场见T1东侧三株白点可擦除，西侧未检查；农户转发的打药好转来自T2。",
+            "source_id": "CP-24",
+            "symptom_codes": [
+              "wipeable_residue"
+            ],
+            "text": "技术员现场见T1东侧三株白点可擦除",
+            "usable": true
+          }
+        ],
+        "rationale": "检验阴性排除，不影响其他候选（来源 CP-23）",
+        "status": "ruled_out"
+      },
+      {
+        "candidate_id": "CAND-06f18e82",
+        "disease_id": "D2",
+        "disease_name": "合成扩散型枯斑",
+        "evidence": [
+          {
+            "evidence_id": "EV-354ae345",
+            "is_hearsay": false,
+            "kind": "observation",
+            "original_text": "本田东侧三株叶背有白点，近两日未见扩散。",
+            "source_id": "CP-10",
+            "symptom_codes": [
+              "white_leaf_back_spots"
+            ],
+            "text": "本田东侧三株叶背有白点",
+            "usable": true
+          },
+          {
+            "evidence_id": "EV-b396ee7c",
+            "is_hearsay": false,
+            "kind": "observation",
+            "original_text": "本田东侧三株叶背有白点，近两日未见扩散。",
+            "source_id": "CP-10",
+            "symptom_codes": [],
+            "text": "近两日未见扩散",
+            "usable": true
+          },
+          {
+            "evidence_id": "EV-be4db1a6",
+            "is_hearsay": false,
+            "kind": "observation",
+            "original_text": "技术员现场见T1东侧三株白点可擦除，西侧未检查；农户转发的打药好转来自T2。",
+            "source_id": "CP-24",
+            "symptom_codes": [],
+            "text": "西侧未检查",
+            "usable": true
+          },
+          {
+            "evidence_id": "EV-d9f21889",
+            "is_hearsay": false,
+            "kind": "observation",
+            "original_text": "技术员现场见T1东侧三株白点可擦除，西侧未检查；农户转发的打药好转来自T2。",
+            "source_id": "CP-24",
+            "symptom_codes": [
+              "wipeable_residue"
+            ],
+            "text": "技术员现场见T1东侧三株白点可擦除",
+            "usable": true
+          }
+        ],
+        "rationale": "植保人员判断现象与候选不符，保留记录但不升级",
+        "status": "mismatched"
+      }
+    ],
+    "current_stage": "开花期",
+    "evidence": [
+      {
+        "evidence_id": "EV-354ae345",
+        "is_hearsay": false,
+        "kind": "observation",
+        "original_text": "本田东侧三株叶背有白点，近两日未见扩散。",
+        "source_id": "CP-10",
+        "symptom_codes": [
+          "white_leaf_back_spots"
+        ],
+        "text": "本田东侧三株叶背有白点",
+        "usable": true
+      },
+      {
+        "evidence_id": "EV-b396ee7c",
+        "is_hearsay": false,
+        "kind": "observation",
+        "original_text": "本田东侧三株叶背有白点，近两日未见扩散。",
+        "source_id": "CP-10",
+        "symptom_codes": [],
+        "text": "近两日未见扩散",
+        "usable": true
+      },
+      {
+        "evidence_id": "EV-be4db1a6",
+        "is_hearsay": false,
+        "kind": "observation",
+        "original_text": "技术员现场见T1东侧三株白点可擦除，西侧未检查；农户转发的打药好转来自T2。",
+        "source_id": "CP-24",
+        "symptom_codes": [],
+        "text": "西侧未检查",
+        "usable": true
+      },
+      {
+        "evidence_id": "EV-d9f21889",
+        "is_hearsay": false,
+        "kind": "observation",
+        "original_text": "技术员现场见T1东侧三株白点可擦除，西侧未检查；农户转发的打药好转来自T2。",
+        "source_id": "CP-24",
+        "symptom_codes": [
+          "wipeable_residue"
+        ],
+        "text": "技术员现场见T1东侧三株白点可擦除",
+        "usable": true
+      }
+    ],
+    "excluded_hearsay": [
+      {
+        "evidence_id": "EV-0dcf1575",
+        "is_hearsay": true,
+        "kind": "hearsay",
+        "original_text": "邻田说喷过青宁后好转，作物品种和施用日不详。",
+        "source_id": "CP-11",
+        "symptom_codes": [],
+        "text": "邻田说喷过青宁后好转，作物品种和施用日不详。",
+        "usable": false
+      }
+    ],
+    "field": {
+      "crop_id": "CR1",
+      "farmer_id": "F1",
+      "id": "T1"
+    },
+    "label_restrictions": [],
+    "product": null,
+    "rationale": "D1 已被检验排除且花期禁用；D2 未核实，继续观察西侧与扩散情况",
+    "rec_id": "REC-bec6f164",
+    "rec_type": "monitor_only",
+    "status": "approved",
+    "supersedes": null,
+    "version": 1
+  },
+  "monitor_rec": "REC-bec6f164",
+  "n1_after": {
+    "basis_snapshot": {
+      "frozen": true,
+      "label_restrictions": [
+        {
+          "clause_id": "CL-d87d84d4",
+          "stage": "抽穗期",
+          "text": "青宁标签：仅适用于抽穗前",
+          "type": "allowed_before"
+        },
+        {
+          "clause_id": "CL-700f0394",
+          "stage": "开花期",
+          "text": "开花期不得施用",
+          "type": "forbidden_stage"
+        },
+        {
+          "clause_id": "CL-73a4568a",
+          "stage": "抽穗期",
+          "text": "药剂青宁LABEL1旧版仅适用于抽穗前",
+          "type": "allowed_before"
+        },
+        {
+          "clause_id": "CL-74449717",
+          "stage": "开花期",
+          "text": "花期禁用",
+          "type": "forbidden_stage"
+        }
+      ],
+      "notice_id": "N1",
+      "rec_id": "REC-N1",
+      "source_id": "CP-25",
+      "source_text": "N1昨日建议F1在T1按LABEL1施用青宁，仍未执行；N2记录F2已在T2完成此前作业。"
+    },
+    "executed_at": null,
+    "farmer_id": "F1",
+    "field_id": "T1",
+    "notice_id": "N1",
+    "rec_id": "REC-N1",
+    "sent_at": null,
+    "status": "superseded"
+  },
+  "n2_after": {
+    "basis_snapshot": {
+      "frozen": true,
+      "label_restrictions": [
+        {
+          "clause_id": "CL-2b7f15a4",
+          "stage": null,
+          "text": "LABEL2补充只对CR2作物放宽",
+          "type": "relaxed"
+        },
+        {
+          "clause_id": "CL-d2ab1388",
+          "stage": null,
+          "text": "不改变CR1限制",
+          "type": "scope_note"
+        }
+      ],
+      "notice_id": "N2",
+      "rec_id": "REC-N2",
+      "source_id": "CP-25",
+      "source_text": "N1昨日建议F1在T1按LABEL1施用青宁，仍未执行；N2记录F2已在T2完成此前作业。"
+    },
+    "executed_at": "历史已执行",
+    "farmer_id": "F2",
+    "field_id": "T2",
+    "notice_id": "N2",
+    "rec_id": "REC-N2",
+    "sent_at": null,
+    "status": "executed"
+  },
+  "new_notice": "N-e1a9c6c4",
+  "t1_dossier": {
+    "candidates": [
+      {
+        "disease_id": "D1",
+        "id": "CAND-219a89ff",
+        "rationale": "检验阴性排除，不影响其他候选（来源 CP-23）",
+        "status": "ruled_out"
+      },
+      {
+        "disease_id": "D2",
+        "id": "CAND-06f18e82",
+        "rationale": "植保人员判断现象与候选不符，保留记录但不升级",
+        "status": "mismatched"
+      }
+    ],
+    "current_stage": "开花期",
+    "field_id": "T1",
+    "hearsay": [
+      {
+        "evidence_id": "EV-0dcf1575",
+        "is_hearsay": true,
+        "kind": "hearsay",
+        "original_text": "邻田说喷过青宁后好转，作物品种和施用日不详。",
+        "source_id": "CP-11",
+        "symptom_codes": [],
+        "text": "邻田说喷过青宁后好转，作物品种和施用日不详。",
+        "usable": false
+      }
+    ],
+    "lab_results": [
+      {
+        "detected": false,
+        "disease_id": "D1",
+        "source_id": "CP-23"
+      }
+    ],
+    "notices": [
+      {
+        "basis_snapshot": {
+          "frozen": true,
+          "label_restrictions": [
+            {
+              "clause_id": "CL-d87d84d4",
+              "stage": "抽穗期",
+              "text": "青宁标签：仅适用于抽穗前",
+              "type": "allowed_before"
+            },
+            {
+              "clause_id": "CL-700f0394",
+              "stage": "开花期",
+              "text": "开花期不得施用",
+              "type": "forbidden_stage"
+            },
+            {
+              "clause_id": "CL-73a4568a",
+              "stage": "抽穗期",
+              "text": "药剂青宁LABEL1旧版仅适用于抽穗前",
+              "type": "allowed_before"
+            },
+            {
+              "clause_id": "CL-74449717",
+              "stage": "开花期",
+              "text": "花期禁用",
+              "type": "forbidden_stage"
+            }
+          ],
+          "notice_id": "N1",
+          "rec_id": "REC-N1",
+          "source_id": "CP-25",
+          "source_text": "N1昨日建议F1在T1按LABEL1施用青宁，仍未执行；N2记录F2已在T2完成此前作业。"
+        },
+        "executed_at": null,
+        "farmer_id": "F1",
+        "field_id": "T1",
+        "notice_id": "N1",
+        "rec_id": "REC-N1",
+        "sent_at": null,
+        "status": "superseded"
+      },
+      {
+        "basis_snapshot": {
+          "crop_id": "CR1",
+          "evidence": [
+            {
+              "evidence_id": "EV-354ae345",
+              "is_hearsay": false,
+              "kind": "observation",
+              "original_text": "本田东侧三株叶背有白点，近两日未见扩散。",
+              "source_id": "CP-10",
+              "text": "本田东侧三株叶背有白点"
+            },
+            {
+              "evidence_id": "EV-b396ee7c",
+              "is_hearsay": false,
+              "kind": "observation",
+              "original_text": "本田东侧三株叶背有白点，近两日未见扩散。",
+              "source_id": "CP-10",
+              "text": "近两日未见扩散"
+            },
+            {
+              "evidence_id": "EV-be4db1a6",
+              "is_hearsay": false,
+              "kind": "observation",
+              "original_text": "技术员现场见T1东侧三株白点可擦除，西侧未检查；农户转发的打药好转来自T2。",
+              "source_id": "CP-24",
+              "text": "西侧未检查"
+            },
+            {
+              "evidence_id": "EV-d9f21889",
+              "is_hearsay": false,
+              "kind": "observation",
+              "original_text": "技术员现场见T1东侧三株白点可擦除，西侧未检查；农户转发的打药好转来自T2。",
+              "source_id": "CP-24",
+              "text": "技术员现场见T1东侧三株白点可擦除"
+            }
+          ],
+          "field_id": "T1",
+          "frozen_at": "2026-11-26T20:04:21+00:00",
+          "label_restrictions": [],
+          "product_id": null,
+          "rationale": "D1 已被检验排除且花期禁用；D2 未核实，继续观察西侧与扩散情况",
+          "rec_id": "REC-bec6f164",
+          "rec_type": "monitor_only",
+          "superseded_notices": [
+            "N1"
+          ]
+        },
+        "executed_at": null,
+        "farmer_id": "F1",
+        "field_id": "T1",
+        "notice_id": "N-e1a9c6c4",
+        "rec_id": "REC-bec6f164",
+        "sent_at": "2026-11-26T20:04:21+00:00",
+        "status": "not_executed"
+      }
+    ],
+    "stage_history": [
+      {
+        "is_correction": false,
+        "source_id": "CP-20",
+        "stage": "孕穗期"
+      },
+      {
+        "is_correction": true,
+        "source_id": "CP-27",
+        "stage": "开花期"
+      }
+    ],
+    "usable_evidence": [
+      {
+        "evidence_id": "EV-354ae345",
+        "is_hearsay": false,
+        "kind": "observation",
+        "original_text": "本田东侧三株叶背有白点，近两日未见扩散。",
+        "source_id": "CP-10",
+        "symptom_codes": [
+          "white_leaf_back_spots"
+        ],
+        "text": "本田东侧三株叶背有白点",
+        "usable": true
+      },
+      {
+        "evidence_id": "EV-b396ee7c",
+        "is_hearsay": false,
+        "kind": "observation",
+        "original_text": "本田东侧三株叶背有白点，近两日未见扩散。",
+        "source_id": "CP-10",
+        "symptom_codes": [],
+        "text": "近两日未见扩散",
+        "usable": true
+      },
+      {
+        "evidence_id": "EV-18040872",
+        "is_hearsay": false,
+        "kind": "stage",
+        "original_text": "CR1属于农户F1田块T1，本周由孕穗转到花期。相邻T2属F2，种植另一品种。",
+        "source_id": "CP-20",
+        "symptom_codes": [],
+        "text": "CR1属于农户F1田块T1，本周由孕穗转到花期",
+        "usable": true
+      },
+      {
+        "evidence_id": "EV-e0117240",
+        "is_hearsay": false,
+        "kind": "lab",
+        "original_text": "T1样本未检出D1标记，不能证明D2，未采T2。",
+        "source_id": "CP-23",
+        "symptom_codes": [],
+        "text": "D1 未检出（T1样本未检出D1标记，不能证明D2，未采T2。）",
+        "usable": true
+      },
+      {
+        "evidence_id": "EV-d9f21889",
+        "is_hearsay": false,
+        "kind": "observation",
+        "original_text": "技术员现场见T1东侧三株白点可擦除，西侧未检查；农户转发的打药好转来自T2。",
+        "source_id": "CP-24",
+        "symptom_codes": [
+          "wipeable_residue"
+        ],
+        "text": "技术员现场见T1东侧三株白点可擦除",
+        "usable": true
+      },
+      {
+        "evidence_id": "EV-be4db1a6",
+        "is_hearsay": false,
+        "kind": "observation",
+        "original_text": "技术员现场见T1东侧三株白点可擦除，西侧未检查；农户转发的打药好转来自T2。",
+        "source_id": "CP-24",
+        "symptom_codes": [],
+        "text": "西侧未检查",
+        "usable": true
+      },
+      {
+        "evidence_id": "EV-e9766d12",
+        "is_hearsay": false,
+        "kind": "notice_record",
+        "original_text": "N1昨日建议F1在T1按LABEL1施用青宁，仍未执行；N2记录F2已在T2完成此前作业。",
+        "source_id": "CP-25",
+        "symptom_codes": [],
+        "text": "N1昨日建议F1在T1按LABEL1施用青宁，仍未执行；N2记录F2已在T2完成此前作业。",
+        "usable": true
+      },
+      {
+        "evidence_id": "EV-8019f317",
+        "is_hearsay": false,
+        "kind": "reply",
+        "original_text": "F1说今天已进入花期，尚未照N1操作，想知道是否继续。",
+        "source_id": "CP-26",
+        "symptom_codes": [],
+        "text": "F1说今天已进入花期，尚未照N1操作，想知道是否继续。",
+        "usable": true
+      },
+      {
+        "evidence_id": "EV-cc163208",
+        "is_hearsay": false,
+        "kind": "stage",
+        "original_text": "CR1此前生育期记录由孕穗更正为已开花，变化仅指T1，不涉及T2。",
+        "source_id": "CP-27",
+        "symptom_codes": [],
+        "text": "CR1此前生育期记录由孕穗更正为已开花，变化仅指T1，不涉及T2",
+        "usable": true
+      }
+    ]
+  }
+}
